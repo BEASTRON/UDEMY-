@@ -1,1 +1,28 @@
+#include <stdio.h>
+#include <float.h>
+
+    //variable declaration.
+    extern int a, b;
+    extern int c;
+    extern float d;
+
+
+int main()
+{
+    //variable initialization.
+    int a, b;
+    int c;
+    float d;
+
+    a = 5;
+    b = 7;
+
+    c = a + b;
+    printf("Result of c: %d\n", c);
+
+    d = 10/3;
+    printf("Result of d: %f\n", d);
+    return 0;
+}
+
 

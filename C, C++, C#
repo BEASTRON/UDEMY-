@@ -1,1 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Another comment
+    /*our first C program on Code Blocks*/
+    printf("Negan, U can blink, U can cry........... \n");
+    printf("The remains of ur pathetic army will be doing that anyway.\n");
+    printf("BECAUSE LEWCILLE...IS...AWESOME !!\n");
+    return 0;
+}
+
+
 

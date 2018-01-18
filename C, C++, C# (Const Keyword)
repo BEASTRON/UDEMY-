@@ -1,1 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//C programming Language.
+/*In this example, const keyword requires int for "numerical" values and char for letters and characters, #define does not.*/
+const int age = 9;
+const int height = 2;
+const char newline = '\n';
+int main()
+{
+    int Lewcille;
+
+    Lewcille = age*height;
+    printf("Total of Lewcille data is: %d %c", Lewcille, newline); //%c is a newline because a character is expected.
+    printf("Hello Lewcille !!");
+    return 0;
+}
 

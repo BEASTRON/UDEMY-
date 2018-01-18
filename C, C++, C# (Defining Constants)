@@ -1,1 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+/*Defining Constants in C code.*/
+#define age 18
+#define height 166
+#define newline '\n'
+
+int main()
+{
+    int Lewcille;
+
+    Lewcille = 18*166;
+    printf("Total of Lewcille data is: %d", Lewcille);
+    printf("%c", newline);
+    return 0;
+}

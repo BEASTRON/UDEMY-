@@ -3,6 +3,7 @@
 
 int main()
 {
+    /*Data Types in C.*/
     printf("Storage size for float: %d\n", sizeof(float));
     printf("maximum float positive value: %E \n", FLT_MAX);
     printf("minimum float positive value: %E \n", FLT_MIN);

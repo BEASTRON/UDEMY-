@@ -1,1 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+/*Storage classes define the scope of the program or the lifetime of variables. There are 4 storage classes in the C program: auto, register, static, and extern.*/
+    //function declaration.
+    void fun();
+
+    //Static storage class.
+    static int Lewcille = 10; //global variable, which are ALWAYS outside of function.
+
+int main()
+{
+    while(Lewcille--)//decrementation.
+        {
+            fun();
+        }
+
+
+    return 0;
+}
+
+    //function definition.
+    void fun(void)
+    {
+        static int i = 0; //local variable.
+        i++; //incrementation.
+        printf("i is %d and Lewcille is %d \n", i, Lewcille);
+
+    }
+ 

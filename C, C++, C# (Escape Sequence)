@@ -1,1 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+int main()
+{
+    /*\t indicates or represents a space in C.*/
+    printf("Lewcille\tis\there\tto!!\n\n");
+    printf("Hello Lewcille!!");
+
+    return 0;
+}

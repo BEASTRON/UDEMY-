@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <float.h>
 
+    /*Program in C code.*/
     //variable declaration.
     extern int a, b;
     extern int c;

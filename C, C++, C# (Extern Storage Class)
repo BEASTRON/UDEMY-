@@ -1,1 +1,26 @@
+#include <stdio.h>
 
+/*Extern Storage Class(es) are used to reference a group of two or more variables that is visible to all the C program files.*/
+
+int Appathy;
+extern void write_extern();
+
+main()
+{
+    Appathy = 3000;
+    write_extern();
+}
+
+
+
+
+
+#include <stdio.h>
+
+//second.c
+extern int Appathy;
+
+void write_extern(void)
+{
+   printf("The value of Appathy is: %d \n", Appathy);
+}

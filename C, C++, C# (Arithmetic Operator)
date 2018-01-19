@@ -1,1 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int Glutonee = 3000;
+    int Appathy = 300;
+    int GAPPATHY;
+
+    GAPPATHY = Glutonee + Appathy;
+    printf("Value of GAPPATHY is %d \n", GAPPATHY);
+
+    GAPPATHY = Glutonee - Appathy;
+    printf("Value of GAPPATHY is %d \n", GAPPATHY);
+
+    GAPPATHY = Glutonee / Appathy;
+    printf("Value of GAPPATHY is %d \n", GAPPATHY);
+
+    GAPPATHY = Glutonee * Appathy;
+    printf("Value of GAPPATHY is %d \n", GAPPATHY);
+
+    GAPPATHY = Glutonee % Appathy;
+    printf("Value of GAPPATHY is %d \n", GAPPATHY);
+
+
+    return 0;
+}
 

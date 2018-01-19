@@ -1,1 +1,67 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int Glutonee = 3000;
+    int Appathy = 300;
+    int GAPPATHY;
+
+    if(Glutonee == Appathy)
+    {
+        printf("This is true. \n");
+    }
+    else
+    {
+       printf("This is false. \n");
+    }
+
+    if(Glutonee != Appathy)
+    {
+        printf("This is true. \n");
+    }
+    else
+    {
+       printf("This is false. \n");
+    }
+
+    if(Glutonee > Appathy)
+    {
+        printf("This is true. \n");
+    }
+    else
+    {
+       printf("This is false. \n");
+    }
+
+    if(Glutonee < Appathy)
+    {
+        printf("This is true. \n");
+    }
+    else
+    {
+       printf("This is false. \n");
+    }
+
+    if(Glutonee >= Appathy)
+    {
+        printf("This is true. \n");
+    }
+    else
+    {
+       printf("This is false. \n");
+    }
+
+    if(Glutonee <= Appathy)
+    {
+        printf("This is true. \n");
+    }
+    else
+    {
+       printf("This is false. \n");
+    }
+
+
+    return 0;
+}
 

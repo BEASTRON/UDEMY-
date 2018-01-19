@@ -21,6 +21,12 @@ int main()
 
     GAPPATHY = Glutonee % Appathy;
     printf("Value of GAPPATHY is %d \n", GAPPATHY);
+    
+    GAPPATHY = Glutonee++;
+    printf("Value of GAPPATHY is %d \n", GAPPATHY);
+    
+    GAPPATHY = Appathy--;
+    printf("Value of GAPPATHY is %d \n", GAPPATHY);
 
 
     return 0;

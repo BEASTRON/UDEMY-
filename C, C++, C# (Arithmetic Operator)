@@ -19,13 +19,13 @@ int main()
     GAPPATHY = Glutonee * Appathy;
     printf("Value of GAPPATHY is %d \n", GAPPATHY);
 
-    GAPPATHY = Glutonee % Appathy;
+    GAPPATHY = Glutonee % Appathy;  // % modulo.
     printf("Value of GAPPATHY is %d \n", GAPPATHY);
     
-    GAPPATHY = Glutonee++;
+    GAPPATHY = Glutonee++;          // incrementation. 
     printf("Value of GAPPATHY is %d \n", GAPPATHY);
     
-    GAPPATHY = Appathy--;
+    GAPPATHY = Appathy--;          // decrementation. 
     printf("Value of GAPPATHY is %d \n", GAPPATHY);
 
 

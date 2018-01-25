@@ -1,1 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    unsigned int Glutonee = 20;
+    unsigned int Appathy = 30;
+    int Gappathy = 0;
+
+    Gappathy = Glutonee & Appathy;
+    printf("The value of Gappathy is %d. \n", Gappathy);
+
+    Gappathy = Glutonee | Appathy;
+    printf("The value of Gappathy is %d. \n", Gappathy);
+
+    Gappathy = Glutonee ^ Appathy;
+    printf("The value of Gappathy is %d. \n", Gappathy);
+
+    Gappathy = ~Appathy;
+    printf("The value of Gappathy is %d. \n", Gappathy);
+
+    Gappathy = Glutonee << 2;
+    printf("The value of Gappathy is %d. \n", Gappathy);
+
+    Gappathy = Glutonee >> 2;
+    printf("The value of Gappathy is %d. \n", Gappathy);
+
+
+    return 0;
+}
 

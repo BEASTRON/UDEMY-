@@ -1,1 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int Appathy = 22 ;
+    int Glutonee;
+
+    Glutonee = Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee += Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee -= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee *= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee /= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee = 100;
+    Glutonee %= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee <<= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee >>= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee &= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee ^= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    Glutonee |= Appathy;
+    printf("The value of Glutonee is %d. \n", Glutonee);
+
+    return 0;
+}
 

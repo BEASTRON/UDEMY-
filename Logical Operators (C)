@@ -1,1 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int Glutonee = 20;
+    int Appathy = 30;
+    int Gappathy;
+
+    if(Glutonee && Appathy)
+    {
+       printf("This is true. \n");
+    }
+
+    if(Glutonee || Appathy)
+    {
+       printf("This is true. \n");
+    }
+
+    if(!(Glutonee && Appathy))
+    {
+       printf("This is true. \n");
+    }
+
+    else
+    {
+       printf("This is false. \n");
+    }
+
+
+    return 0;
+}
 

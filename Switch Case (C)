@@ -1,1 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+// C program
+int main()
+{
+    char grade = 'A';
+
+    switch(grade)  // Program continues until case is satisfied.
+    {
+    case 'A':
+        printf("Excellent \n");
+        break;
+    case 'B':
+        printf("Very Good \n");
+        break;
+    case 'C':
+        printf("Satisfactory \n");
+        break;
+    case 'D':
+        printf("Passing \n");
+        break;
+    case 'F':
+        printf("Failing \n");
+        break;
+    case 'I':
+        printf("Incomplete \n");
+        break;
+    default:
+        printf("%c is invalid grade \n", grade);
+    }
+    printf("Your grade is %c. \n", grade);
+    return 0;
+}
 

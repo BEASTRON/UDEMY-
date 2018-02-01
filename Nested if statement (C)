@@ -1,1 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// C program
+int main()
+{
+    int Appathy = 100;
+    int Glutonee = 60;
+
+    if(Appathy == 100)
+    {
+        if(Glutonee == 60)
+        {
+            printf("The value of Appathy is 100 and the value of Glutonee is 60. \n");  // *Both conditions MUST be met or this statement will not print
+        }
+
+    }
+    printf("Appathy's value is %d \n", Appathy);
+    printf("Glutonee's value is %d \n", Glutonee);
+    return 0;
+}
 

@@ -1,1 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+// program in C
+int main()
+{
+    int Appathy = 66;
+
+    if (Appathy == 20) // *condition which must be met.
+    {
+        printf("The value of Appathy is 20. \n");
+    }
+    else if (Appathy == 40) // *condition which must be met.
+    {
+        printf("The value of Appathy is 40. \n");
+    }
+    else if (Appathy == 60) // *condition which must be met.
+    {
+        printf("The value of Appathy is 60. \n");
+    }
+    else if (Appathy == 80) // *condition which must be met.
+    {
+        printf("The value of Appathy is 80. \n");
+    }
+    else if (Appathy == 100) // *condition which must be met.
+    {
+        printf("The value of Appathy is 100. \n");
+    }
+    else  // *condition which must be met.
+    {
+        printf("Appathy does not care. GOOD DAY SIR !!  :p :p :p :p  \n");
+    }
+
+
+    return 0;
+}
+
+
 

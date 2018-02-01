@@ -1,1 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+// program in C
+int main()
+{
+    int Appathy = 50;
+
+    if (Appathy > 40) // *condition which must be met.
+    {
+        printf("Appathy is greater than 40. \n");
+    }
+
+
+    return 0;
+}
 

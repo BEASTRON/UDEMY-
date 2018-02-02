@@ -1,1 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// C code
+int main()
+{
+    int Appathy = 22;
+    while(Appathy < 41)
+    {
+        printf("This is number %d. \n", Appathy);
+        Appathy+=2; // *Appathy++ only increments by 1.
+    }
+    return 0;
+}
 

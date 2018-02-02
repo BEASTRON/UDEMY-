@@ -1,1 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// C program
+int main()
+{
+    int Appathy = 80;
+    int Glutonee = 40;
+    // *Both ints must correspond to their respective case, or neither statement will print.
+
+    switch(Appathy)
+    {
+    case 80: // * This condition must be met. If not, neither one of the statements will print.
+        printf("Appathy's value is 80. \n");
+        switch(Glutonee)
+        {
+        case 40:
+            printf("Glutonee's value is 40. \n");
+        }
+    }
+
+    return 0;
+}
 

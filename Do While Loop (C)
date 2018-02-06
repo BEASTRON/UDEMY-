@@ -1,1 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int Appathy = 2;
+
+    do
+    {
+        printf("Appathy's lack of enthusiasm is at a level of %d. \n", Appathy);
+        Appathy = Appathy + 10;
+    }
+    while(Appathy < 104);
+
+
+    return 0;
+}
 

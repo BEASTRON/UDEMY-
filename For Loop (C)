@@ -1,1 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int Appathy = 10;
+    for(Appathy = 10; Appathy < 101; Appathy = Appathy + 10)
+    {
+        printf("Appathy's intolerance threshold level is %d. \n", Appathy);
+    }
+
+
+    return 0;
+}
 

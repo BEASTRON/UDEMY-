@@ -1,8 +1,8 @@
-#include <iostream>
+#include <iostream>  //main header.
 
 using namespace std;
 
-int main()
+int main()  //Main fx.
 {
     cout << "Lewcille is Awesome!" << endl;
     cout << "Appathy won Another 1!" << endl;
@@ -11,5 +11,5 @@ int main()
     cout << "Cardassians were destroyed by Durpinn-it !!" << endl;
 
     return 0;
-}
+}  /* {}: represents the code block which indicates what the main fx will run. */
 

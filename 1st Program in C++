@@ -1,1 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Lewcille is Awesome!" << endl;
+    cout << "Appathy won Another 1!" << endl;
+    cout << "Pelvik Sourcery destroyed some Imperials !" << endl;
+    cout << "Glutonee won another 1!" << endl;
+    cout << "Cardassians were destroyed by Durpinn-it !!" << endl;
+
+    return 0;
+}
 

@@ -1,1 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+    extern int Glutonee, Appathy, GAPPATHY;
+    char hello;
+
+
+int main()
+{
+    int Glutonee = 2;
+    int Appathy = 4;
+    int GAPPATHY = Glutonee + Appathy;
+
+
+
+    cout << "The value of GAPPATHY is:" << GAPPATHY << endl;
+    return 0;
+}
 

@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+#define height 62
+#define age 24
+#define newline '\n'
+
+int main()
+{
+    int Data;
+
+    Data = height * age;
+    cout << "Lewcille's Data is: " << Data << endl;
+    cout << newline;
+    cout << "Her age is: " << age << endl;
+    return 0;
+}

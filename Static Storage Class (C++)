@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+void fun(void); //function declaration.
+
+static int DarthLorulye = 26; // global variable.
+
+int main()
+{
+    fun();
+    return 0;
+}
+void fun(void)
+{
+    static int Lewcille = 22;
+    std::cout << "Darth Lorulye is: " << DarthLorulye << endl;
+    std::cout << "Lewcille is: " << Lewcille << endl;
+}

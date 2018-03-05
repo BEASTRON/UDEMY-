@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+const int height = 62;
+const int age = 22;
+
+int main()
+{
+    int Data = height * age;
+
+    cout << "Lewcille's Data is: " << Data << endl;
+    return 0;
+}
+
+

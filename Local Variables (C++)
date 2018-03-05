@@ -10,7 +10,7 @@ int main()
 
     Lewcille = 10;
     Piethon = 4;
-    LPIETHON = Lewcille * Piethon;
+    LPIETHON = Lewcille * Piethon; // Substitute +, -, / signs as desired.
 
 
     cout << "The Value of LPIETHON is: " << LPIETHON << endl;

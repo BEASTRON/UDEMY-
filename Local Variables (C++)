@@ -1,1 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int Lewcille;
+    int Piethon;
+    int LPIETHON;
+
+    Lewcille = 10;
+    Piethon = 4;
+    LPIETHON = Lewcille * Piethon;
+
+
+    cout << "The Value of LPIETHON is: " << LPIETHON << endl;
+    return 0; // Lines 7 - 17 is called the Local Variable &, therefore, cannot function outside the main function.
+}
 

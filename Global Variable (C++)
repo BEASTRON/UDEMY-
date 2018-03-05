@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int LPIETHON; // Global Variable.
+
+int main()
+{
+    int Lewcille;
+    int Piethon;
+
+    Lewcille = 24;
+    Piethon = 22;
+    LPIETHON = Lewcille * Piethon; // Substitute +, -, / signs as desired.
+
+
+    cout << "The Value of LPIETHON is: " << LPIETHON << endl;
+    return 0; // Lines 7 - 17 is called the Local Variable &, therefore, cannot function outside the main function.
+}

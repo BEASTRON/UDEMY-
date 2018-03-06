@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+// **Extern Storage Class is used for multiple files.
+
+int Appathy;
+extern void write_extern();
+
+ main()
+{
+    Appathy = 24;
+    write_extern();
+}
+
+
+
+
+//second.cpp
+//example file used in conjunction with main. 
+
+#include <iostream>
+
+extern int Appathy;
+void write_extern(void)
+{
+    std::cout << "The value of Appathy is: " << Appathy << std::endl;
+}

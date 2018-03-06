@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int Vannitee = 20;
+    int Appathy = 4;
+    int VAPPATHY;
+
+    VAPPATHY = Vannitee + Appathy;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+    VAPPATHY = Vannitee - Appathy;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+    VAPPATHY = Vannitee * Appathy;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+    VAPPATHY = Vannitee / Appathy;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+    VAPPATHY = Vannitee % Appathy;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+    VAPPATHY = ++Vannitee;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+    VAPPATHY = --Appathy;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+    VAPPATHY *= Vannitee;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+    VAPPATHY /= Appathy;
+    cout << "The value of VAPPATHY is: " << VAPPATHY << endl;
+
+
+    return 0;
+}

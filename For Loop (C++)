@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a = 20;
+
+    for (a = 20; a < 2000; a *=2)
+    {
+        cout << "This is number: " << a << endl;
+    }
+
+
+    return 0;
+}

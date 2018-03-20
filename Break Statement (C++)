@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+
+    for(a = 2; a < 101; a++)
+    {
+        for(b = 2; b <= (a/b); b++)
+            if(!(a%b))
+            break;
+        if(b > (a/b))
+            cout << "This is a prime number: " << a << "\n" << endl;
+    }
+
+    return 0;
+}

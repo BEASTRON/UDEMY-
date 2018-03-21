@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int Durpinnit = 100;
+
+    do
+    {
+        if(Durpinnit == 3200)
+        {
+            Durpinnit *= 2;
+            continue;
+        }
+        cout << "This is number: " << Durpinnit << endl;
+        Durpinnit *= 2;
+
+    }while(Durpinnit < 200001);
+
+    return 0;
+}

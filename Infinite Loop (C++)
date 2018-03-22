@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    for(; ;)
+    {
+        cout << "The Infinity Wars have begun and will NEVER stop !! :p :p :p :p " << endl;
+    }
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int Lewcille = 20;
+
+    if(Lewcille <= 80)
+    {
+        cout << "Federation 5-O is winning The Infinity Wars!" << endl;
+    }
+    else
+    {
+        cout << "Darth Ennvy will win!" << endl;
+    }
+
+    return 0;
+}

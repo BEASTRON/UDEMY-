@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x = 80;
+
+    if(x == 80)
+    {
+        cout << "The Sith will be decimated by Durpin-itt !!  :p :p :p :p  " << endl;
+    }
+
+    return 0;
+}

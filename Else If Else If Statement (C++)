@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int Loqueelladijo = 200000;
+
+    if(Loqueelladijo == 20)
+    {
+        cout << "The value of Loqueelladijo is 20." << endl;
+    }
+    else if(Loqueelladijo == 40)
+    {
+        cout << "The value of Loqueelladijo is 40." << endl;
+    }
+    else if(Loqueelladijo == 60)
+    {
+        cout << "The value of Loqueelladijo is 60." << endl;
+    }
+    else if(Loqueelladijo == 80)
+    {
+        cout << "The value of Loqueelladijo is 80." << endl;
+    }
+    else if(Loqueelladijo == 100)
+    {
+        cout << "The value of Loqueelladijo is 100." << endl;
+    }
+    else
+    {
+        cout "The exact value of Loqueelladijo is: " << Loqueelladijo << endl;
+    }
+
+    return 0;
+}

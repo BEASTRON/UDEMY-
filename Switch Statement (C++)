@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+//The switch statement is utilized in place of else if statements when 5 or more else if statements are required.
+
+int main()
+{
+    char grade = 'A';
+
+        cout << "Your grade is: " << grade << endl;
+
+        switch(grade)
+        {
+        case 'A':
+            cout << "Excellent" << endl;
+            break;
+        case 'B':
+            cout << "Good" << endl;
+            break;
+        case 'C':
+            cout << "Satisfactory" << endl;
+            break;
+        case 'D':
+            cout << "Passing" << endl;
+            break;
+        case 'F':
+            cout << "Failing" << endl;
+            break;
+        case 'I':
+            cout << "Incomplete" << endl;
+            break;
+        default:
+            cout << "Invalid Grade" << endl;
+            break;
+        }
+
+    return 0;
+}

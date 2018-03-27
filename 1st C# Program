@@ -1,0 +1,19 @@
+using System;
+
+namespace Ourcode
+{
+	class program
+	{
+		static void Main(string[]args)
+		{
+			Console.WriteLine("Welcome 2 ur Last Day on Earth, U sorry Saviors !! From Lewcille !!!!");
+			Console.ReadKey();		
+		}		
+	}
+}
+
+
+
+
+
+
